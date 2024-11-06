@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe & tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Revalia&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+    <nav class="navmenu">
+        <div class="logo">
+            <h1>Coffee & Tech</h1>
+
+        </div>
+        <div class="menu">
+            <a href="#cardapio">Cardápio</a>
+            <a href="#sobre_nos">Sobre Nós</a>
+            <a href="#playlist">Playlist</a>
+            <a href="#impacto_social">Impacto Social</a>
+            <a id="botao" href="#fale_conosco">Fale conosco</a>
+
+
+        </div>
+    </nav>
+    <header class="header">
+        <div class="headline">
+            <h2>Seu dia começa aqui.</h2>
+            <h3>Café Especial</h3>
+            <p>Desfrute de um café artesanal e comece seu dia com mais energia e disposição.
+                Espaço aconchegante, ideal
+                para quem busca tranquilidade.</p>
+
+        </div>
+        <div class="img-headline">
+            <img src="imagens_coffee/img-quinze2.jpg" alt="foto da headline">
+
+        </div>
+
+
+    </header>
+    <div class="cardapio">
+        <section id="cardapio">
+            <div class="parte_um">
+                <p>Bebidas Quentes <i class='bx bx-coffee'></i></p>
+                <div>
+
+                    <ul>
+                        <li>Espresso......................R$10,00</li>
+                        <li>Cappuccino.................R$10,00</li>
+                        <li>Latte............................R$10,00</li>
+                        <li>Mocha.........................R$10,00</li>
+                        <li>Mochiato.....................R$10,00</li>
+                        <li>Flat White...................R$10,00</li>
+                        <li>Americano..................R$10,00</li>
+                        <li>Chocolate Quente.......R$10,00</li>
+                        <li>Irish Coffee.................R$10,00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="parte_dois">
+                <p class="menu">Cardápio</p>
+                <p class="logo_menu">Coffee & Tech</p>
+                <img src="imagens_coffee/png_cafe.png" alt="xicara de cafe">
+
+            </div>
+            <div class="parte_tres">
+                <p>Bebidas Geladas <i class='bx bxs-coffee-alt'></i></p>
+                <ul>
+                    <li>Frappé.....................................R$10,00</li>
+                    <li>Cold Brew...............................R$10,00</li>
+                    <li>Latte Gelado............................R$10,00</li>
+                    <li>Mocha Gelado.........................R$10,00</li>
+                    <li>Affogato...................................R$10,00</li>
+                    <li>Smoothie de Café.....................R$10,00</li>
+                    <li>Café com leite Condesado........R$10,00</li>
+                    <li>Café Gelado com Leite.............R$10,00</li>
+                    <li>Espresso Tonic..........................R$10,00</li>
+                </ul>
+            </div>
+
+
+        </section>
+    </div>
+    <div>
+        <section id="sobre_nos">
+
+            <div>
+                <p style="color:brown;font-size: 40px;font-weight: bold;">Sobre Nós</p>
+
+                <p>Na Coffee & Tech, acreditamos que um bom café vai muito além do sabor. Cada xícara que você
+                    saboreia é resultado de um processo cuidadoso, desde a seleção dos melhores grãos até a
+                    preparação da bebida.
+
+                    Nossos grãos são cultivados de forma sustentável, com práticas que minimizam o impacto
+                    ambiental e valorizam a biodiversidade. Escolhemos trabalhar com produtores comprometidos
+                    com a qualidade e o bem-estar das comunidades locais.
+
+                    Ao escolher nossos produtos, você não apenas desfruta de um café excepcional, mas também
+                    contribui para um futuro mais sustentável. Parte do lucro é revertido para projetos que
+                    apoiam as comunidades de produtores de café, promovendo o desenvolvimento social e
+                    econômico dessas regiões.</p>
+
+            </div>
+            <div class="img_sobrenos">
+                <img src="imagens_coffee/cafe_cinco.jpg" alt="imagem sobre nós">
+            </div>
+
+        </section>
+    </div>
+    <div class="play_musical">
+        <section id="playlist">
+            <h2>Coffee & Tech</h2>
+            <p>Playlist</p>
+            <div class="player">
+                <audio id="myAudio">
+                    <source src="audio_coffee/audio_cafe.mp3" type="audio/mp3">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <button onclick="playAudio()">Play</button>
+                <button onclick="pauseAudio()">Pause</button>
+
+                <script src="script.js"></script>
+
+            </div>
+
+        </section>
+    </div>
+    <div>
+        <section id="impacto_social">
+            <div class="impacto_social">
+                <figure>
+                    <img src="imagens_coffee/Sustentabilidade.jpg" alt="">
+                    <figcaption>Sustentabilidade</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens_coffee/Inclusão.jpg" alt="">
+                    <figcaption>Inclusão</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens_coffee/Comunidade.png" alt="">
+                    <figcaption>Comunidade</figcaption>
+                </figure>
+
+            </div>
+        </section>
+    </div>
+
+
+
+
+    <div>
+        <section id="fale_conosco">
+            <div class="fale_conosco">
+                <p class="fale-conosco" style="color: orange;">Fale conosco</p>
+                <p class="icone-telefone" style="color: #1fa016;"><i class='bx bxs-phone'></i></p>
+                <p class="number-telefone" style="color: orange;">86 9 9999-9999</p>
+                <div class="rede_social">
+                    <a href="#"><i class='bx bxl-instagram' style="color: #c82598;"></i></a>
+                    <a href="#"><i class='bx bxl-whatsapp' style="color: #1fa016;"></i></a>
+                    <a href="#"><i class='bx bxl-linkedin' style="color: #0a8ad2;"></i></a>
+                    <a href="#"><i class='bx bxl-tiktok' style="color: #01f2eb" ;></i></a>
+                </div>
+
+            </div>
+            <div class="img_faleConosco">
+                <img src="imagens_coffee/cafe_dois.jpg" alt="">
+            </div>
+
+        </section>
+    </div>
+    <footer>
+        <br>
+        ©2024 Todos os direitos reservados. Desenvolvido por Francisco Marreiros.
+    </footer>
+</body>
+
+</html>

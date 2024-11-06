@@ -1,0 +1,363 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+
+}
+
+.navmenu {
+    display: flex;
+    flex-flow: row wrap;
+    height: 150px;
+    background-color: #472b27;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo {
+    flex: 20%;
+    /*border: 1px solid red;*/
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1 {
+    font-family: "Roboto Slab", serif;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-size: 52px;
+    color: orange;
+
+}
+
+.menu {
+    flex: 70%;
+    /*border: 1px solid black;*/
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover {
+    color: orange;
+    border-top: 2px solid orange;
+}
+
+#botao {
+    margin-right: 10%;
+    /*margin-left: 5%;*/
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    height: 700px;
+    background-color: #6a4b46;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline {
+    margin-left: 10%;
+    flex: 30%;
+    /*border: 1px solid black;*/
+
+}
+
+.headline h2 {
+    color: #a69a9a;
+    font-size: 32px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.headline h3 {
+    font-weight: bold;
+    font-size: 70px;
+    color: orange;
+
+
+}
+
+.headline p {
+    /*font-weight: 900;*/
+    font-size: 30px;
+    color: #ffe3ae;
+    margin-top: 0px;
+    align-items: center;
+    /*margin-bottom: 120px;*/
+    margin-right: 20px;
+    font-family: Courgette;
+    font-style: italic;
+}
+
+.headline h2,
+h3,
+p {
+    margin: 10px;
+}
+
+.img-headline {
+    margin-right: 10%;
+    flex: 50%;
+    /*border: 1px solid blue;*/
+}
+
+.img-headline img {
+    width: 100%;
+    height: 700px;
+    /*filter: brightness(0.2) contrast(1.1) sepia(10%);*/
+}
+
+#cardapio {
+    display: flex;
+    flex-flow: row wrap;
+    height: 700px;
+    background-color: #945124;
+}
+
+.parte_um {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    color: white;
+    font-size: 30px;
+    line-height: 1.7;
+
+}
+
+.parte_dois {
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+    align-items: center;
+}
+
+.parte_um p {
+    color: #e4b374;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.menu {
+    font-family: "Revalia", serif;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+
+.logo_menu {
+    font-family: "Roboto Slab", serif;
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+}
+
+.parte_dois img {
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    display: grid;
+    place-items: center;
+    /*height: 50%;*/
+    /*margin-left: 80px;*/
+    max-width: 60%
+}
+
+
+
+
+.parte_tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    color: white;
+    font-size: 30px;
+    line-height: 1.7;
+}
+
+.parte_tres p {
+    color: #e4b374;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#sobre_nos {
+    /*display: flex;
+    flex-flow: row wrap;*/
+    height: 600px;
+    background-color: #d1ac99;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sobre_nos img {
+    height: 600px;
+    width: 895px;
+}
+
+#sobre_nos p {
+    font-size: 32px;
+    text-align: justify;
+    padding: 30px 55px;
+}
+
+.sobre {
+    font-size: 50px;
+}
+
+.play_musical {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url('imagens_coffee/img-playlist.png');
+    height: 600px;
+
+}
+
+#playlist {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    /*background-image: url('images/img-playlist.png');*/
+    /*filter: brightness(1.5);*/
+    border-radius: 15px;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+
+}
+
+#playlist h2 {
+    color: orange;
+    font-size: 50px;
+}
+
+#playlist p {
+    color: white;
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+
+button {
+    padding: 40px;
+    font-size: 28px;
+    border-radius: 10px;
+    background-color: #1f151d;
+    color: white;
+
+
+}
+
+.player {
+    padding: 100px;
+}
+
+#impacto_social {
+    background-image: linear-gradient(90deg, rgb(76, 144, 73), rgb(135, 135, 65));
+
+}
+
+.impacto_social {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+
+.impacto_social img {
+    height: 600px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+.impacto_social figcaption {
+    color: rgb(50, 2, 2);
+    font-size: 28px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#fale_conosco {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: #320000;
+}
+
+.fale_conosco {
+    /*display: flex;*/
+    width: 30%;
+    flex: 30%;
+    text-align: center;
+    align-items: center;
+    background-color: #320000;
+}
+
+.rede_social {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.img_faleConosco {
+    border-radius: 10px;
+    height: 500px;
+    display: flex;
+    margin-right: 300px;
+
+
+}
+
+.fale-conosco {
+    font-size: 48px;
+}
+
+.icone-telefone {
+    font-size: 48px;
+}
+
+.number-telefone {
+    font-size: 48px;
+}
+
+.rede_social {
+    font-size: 48px;
+    gap: 50px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+footer {
+    height: 100px;
+    background-color: #1f151d;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+
+}
